@@ -2,7 +2,7 @@ import express from "express";
 import { listingLimiter } from "../middleware/rateLimiter.js";
 import asyncHandler from "express-async-handler";
 import { protect } from "../middleware/authMiddleware.js";
-import upload from "../middleware/upload.js";
+import {upload} from "../middleware/upload.js";
 
 import {
   createListing,
